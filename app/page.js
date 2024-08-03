@@ -60,7 +60,7 @@ export default function Home() {
 
   return (
     <div className="h-screen flex flex-col justify-center items-center bg-blue-800">
-      <div className="bg-slate-800 h-16 text-white w-4/5 h-auto flex justify-center items-center gap-3">
+      <div className="bg-slate-800 h-16 text-white w-4/5 h-auto grid grid-cols-2 justify-between items-center gap-3 sm:grid-cols-4">
         <div className="flex items-center gap-5">
           <div>Highscore: </div>
           <div className="highscore bg-white text-black p-2 rounded-md">{highscore}</div>
