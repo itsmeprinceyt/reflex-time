@@ -30,16 +30,16 @@ Make sure you have Node.js installed on your system. If not, you can download it
    cd reflex-time
    ```
 3. Install the required dependencies:
-  ```bash
-  npm i  
-  ```
+   ```bash
+   npm i  
+   ```
 
 ### Running the Game
 
 To start the development server, run:
-  ```bash
-  npm run dev
-  ```
+   ```bash
+   npm run dev
+   ```
 
 Open your browser and go to http://localhost:3000 to play the game.
 
